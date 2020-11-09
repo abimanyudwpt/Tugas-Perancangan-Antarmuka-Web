@@ -1,0 +1,36 @@
+a {
+    text-decoration: none;
+}
+h1 {
+    font-family: "Raleway",sans-serif;
+}
+.table {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    border: 1px solid #dcdde1;
+}
+
+.table tr th {
+    background: #1b34a3;
+    color: #fff;
+    font-weight: normal;
+}
+
+.table, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.table tr:nth-child(even) {
+    background-color: #becaff;
+}
+
+.btn {
+    color: #fff;
+    background: #1b34a3;
+    border-radius: 5px;
+    font-family: "Raleway SemiBold",sans-serif;
+    padding: 5px;
+}
+
